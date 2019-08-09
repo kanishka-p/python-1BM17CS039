@@ -1,0 +1,123 @@
+#Different IDE's(Integrated development environment) used for python
+General Editors and IDEs with Python Support
+
+    Eclipse + PyDev
+    Sublime Text
+    Atom
+    GNU Emacs
+    Vi / Vim
+    Visual Studio
+    Visual Studio Code
+
+Python-Specific Editors and IDEs
+
+    PyCharm
+    Spyder
+    Thonny
+
+#Differences between python 2 and 3
+*Division operator
+
+If we are porting our code or executing the python 3.x code in python 2.x, it can be dangerous if integer division changes go unnoticed (since it doesn’t raise any error). It is preferred to use the floating value (like 7.0/5 or 7/5.0) to get the expected result when porting our code.
+
+*print function
+
+This is the most well known change. In this the print function in Python 2.x is replaced by print() function in Python 3.x,i.e, to print in Python 3.x an extra pair of parenthesis is required.
+print 'Hello, Geeks'      # Python 3.x doesn't support 
+print('Hope You like these facts') 
+  
+
+
+*Unicode:
+
+In Python 2, implicit str type is ASCII. But in Python 3.x implicit str type is Unicode.
+print(type('default string ')) 
+print(type(b'string with b ')) 
+
+*Error Handling:
+
+There is a small change in error handling in both versions. In python 3.x, ‘as’ keyword is required.
+
+
+*future_module:
+
+This is basically not a difference between two version, but useful thing to mention here. The idea of __future__ module is to help in migration. We can use Python 3.x
+If we are planning Python 3.x support in our 2.x code,we can use_future_ imports it in our code.
+
+For example, in below Python 2.x code, we use Python 3.x’s integer division behavior using __future__ module
+
+#executing python3 in ubuntu
+ex : 
+  
+    print("hello")
+to run this code: 
+1. go to terminal
+2. go to the location where you stored the .py file
+eg. cd Documents
+3. type = python3 hello.py
+
+
+#Basic tools for different domains in Python
+
+
+*Web and Internet Development
+
+Python offers many choices for web development:
+
+    Frameworks such as Django and Pyramid.
+    Micro-frameworks such as Flask and Bottle.
+    Advanced content management systems such as Plone and django CMS.
+
+
+*Scientific and Numeric
+
+Python is widely used in scientific and numeric computing:
+
+    SciPy is a collection of packages for mathematics, science, and engineering.
+    Pandas is a data analysis and modeling library.
+    IPython is a powerful interactive shell that features easy editing and recording of a work session, and supports visualizations and parallel computing.
+    The Software Carpentry Course teaches basic skills for scientific computing, running bootcamps and providing open-access teaching materials.
+
+
+
+*Desktop GUIs
+
+The Tk GUI library is included with most binary distributions of Python.
+
+Some toolkits that are usable on several platforms are available separately:
+
+    wxWidgets
+    Kivy, for writing multitouch applications.
+    Qt via pyqt or pyside
+
+Platform-specific toolkits are also available:
+
+    GTK+
+    Microsoft Foundation Classes through the win32 extensions
+
+
+
+*Software Development
+
+Python is often used as a support language for software developers, for build control and management, testing, and in many other ways.
+
+    SCons for build control.
+    Buildbot and Apache Gump for automated continuous compilation and testing.
+    Roundup or Trac for bug tracking and project management.
+
+
+*Business Applications
+
+Python is also used to build ERP and e-commerce systems:
+
+    Odoo is an all-in-one management software that offers a range of business applications that form a complete suite of enterprise management applications.
+    Tryton is a three-tier high-level general purpose application platform.
+
+
+
+
+
+
+
+ 
+
